@@ -1,0 +1,88 @@
+p.i9idx-error
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #FF0000;
+}
+.i9idx-search-widget h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+}
+.i9idx-widget
+{
+    text-align: left;
+}
+.i9idx-search-widget {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.i9idx-search-widget label {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+    float: left;
+    clear: both;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.i9idx-search-widget input[type=text], .i9idx-search-widget select {
+    display: inline-block;
+    width: 80% !important;
+    padding: 5px;
+    margin: 3px 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.i9idx-search-widget input.i9idx-price
+{
+    width: 39% !important;
+}
+.i9idx-search-widget #idx-q-PriceMax,
+.i9idx-search-widget input.i9idx-beds,
+.i9idx-search-widget input.i9idx-baths,
+.i9idx-search-widget input.i9idx-improvedsqft,
+.i9idx-search-widget input.i9idx-mlsnumber
+{
+    float: right;
+}
+.i9idx-widget.i9idx-search-widget .i9idx-search-button
+{
+    padding-top: 6px;
+    text-align:center;
+}
+.i9idx-search-widget .i9idx-search-button
+{
+    font-size: 12px;
+}
+.i9idx-search-widget .i9idx-search-button img
+{
+    vertical-align:-3px;
+    border: 0;
+}
+.i9idx-search-widget .i9idx-search-widget-propertyTypes, .i9idx-search-widget .idx-q-Location-Filter
+{
+    width: 100% !important;
+}
+.i9idx-widget.i9idx-search-widget .i9idx-search-button
+{
+    padding-top: 6px;
+    text-align:center;
+    margin: 0 auto;
+    background: none;
+    clear: both;
+}
+.i9idx-search-widget .i9idx-search-button .submit
+{
+    font-size: 12px;
+    float: none;
+    margin: 15px auto 0;
+    padding: 5px;
+    text-align: center;
+}
+.i9idx-search-widget #idx-search-invalid-msg { display: none; }
+
+/** Attempt to hide author info etc. on IDX pages **/
+body.i9idx .post-info, body.i9idx .post-meta, body.i9idx .post-info, body.i9idx .entry-meta, .ds-idx-listings-page .post-info, .ds-idx-listings-page .post-meta, .ds-idx-listings-page .post-info, .ds-idx-listings-page .entry-meta{ display: none; }
